@@ -13,5 +13,8 @@
 - dotnet ef migrations add initialDb
 - dotnet ef database update
 
+### Migrate with connectionstring
+- dotnet ef database update --connection "Server=host.docker.internal,14001;Database=main_db;User=sa;Password=my-Password123;"
+
 ### Run
 - /api/movie/1

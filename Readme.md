@@ -14,4 +14,4 @@
 - dotnet ef database update
 
 ### Run
-https://localhost:SOMEPORT/api/movie/1
+- /api/movie/1
